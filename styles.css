@@ -19,7 +19,7 @@
             padding: 5px 26px;
         }
         .menu-toggle {
-            font-size: 24px;
+            font-size: 25px;
             cursor: pointer;
             display: none;
         }
@@ -29,7 +29,7 @@
             left: -250px;
             width: 250px;
             height: 100%;
-            background: rgba(0, 0, 0, 0.9);
+            background: rgba(20, 20, 20, 0.9);
             transition: 0.3s;
             padding-top: 60px;
             display: none;
@@ -127,10 +127,10 @@
                 
                 padding: 3px;
                 border-radius: 5px;
-                height: 270px;
-                width: 450px;
+                background: red;
+                width: 350px;
+                height: 220px;
         }
-
 
 
 
@@ -233,7 +233,7 @@
     }
 
 
-        @media (max-width: 600px) {
+        @media (max-width: 1026px) {
             
             body{
                 width: 100%;
@@ -249,17 +249,6 @@
                 display: none;
                 
             }    
-
-            img {
-                text-align: center;
-                background: rgb(9, 5, 199);
-                padding: 4px;
-                border-radius: 25px;
-                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-                margin-left: 0px;
-                height: 345px;
-                width: 410px;
-            }
 
             footer{
                 margin-top: 200%;
@@ -382,16 +371,46 @@
                     
                     padding: 3px;
                     border-radius: 5px;
-                    height: 220px;
-                    width: 350px;
+                    background: red;
+                width: 280px;
+                height: 190px;
+                    
             }
 
-            
-         
- 
-             
+            img {
+                text-align: center;
+                background: rgb(9, 5, 199);
+                padding: 4px;
+                border-radius: 25px;
+                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+                margin-left: 0px;
+                height: 310px;
+                width: 311px;
+        }
+        }
 
-    
+        @media (max-width: 320px) {
+            iframe {
+                display: center;
+                text-align: center;
+                    
+                    padding: 3px;
+                    border-radius: 5px;
+                    background: red;
+                width: 210px;
+                height: 170px;  
+            }
+
+            img {
+                text-align: center;
+                background: rgb(9, 5, 199);
+                padding: 4px;
+                border-radius: 25px;
+                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+                margin-left: 0px;
+                height: 270px;
+                width: 280px;
+        }
         }
         
 
