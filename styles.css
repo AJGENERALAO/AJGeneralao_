@@ -138,10 +138,6 @@
 
 
 
-
-
-
-
         main {
             padding: 20px;
         }
@@ -233,7 +229,7 @@
     }
 
 
-        @media (max-width: 1026px) {
+        @media (max-width: 1226px) {
             
             body{
                 width: 100%;
