@@ -15,7 +15,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: #000000;
+            background: #0f0f0f;
             padding: 5px 26px;
         }
         .menu-toggle {
@@ -153,6 +153,11 @@
             justify-content: center;
             font-size: 2em;
             font-weight: bold;
+        }
+
+        image {
+            display: flex;
+
         }
 
         img {
@@ -339,9 +344,6 @@
                 height: 50px;
             }
 
-            nav ul li a:hover {
-                color: #2c14fc;
-            }
 
             nav ul li a {
                 color: rgb(255, 255, 255);
@@ -363,13 +365,12 @@
                 /*Youtube video/*/
             iframe {
                 display: center;
-                text-align: center;
-                    
+                text-align: center; 
                     padding: 3px;
                     border-radius: 5px;
                     background: red;
-                width: 280px;
-                height: 190px;
+                width: 345px;
+                height: 200px;
                     
             }
 
@@ -380,8 +381,8 @@
                 border-radius: 25px;
                 box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
                 margin-left: 0px;
-                height: 310px;
-                width: 311px;
+                height: 350px;
+                width: 390px;
         }
         }
 
@@ -405,7 +406,7 @@
                 box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
                 margin-left: 0px;
                 height: 270px;
-                width: 280px;
+                width: 335px;
         }
         }
         
