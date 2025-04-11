@@ -386,7 +386,7 @@
         }
         }
 
-        @media (max-width: 320px) {
+        @media (max-width: 455px) {
             iframe {
                 display: center;
                 text-align: center;
